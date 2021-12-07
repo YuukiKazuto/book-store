@@ -1,8 +1,10 @@
 package com.group12.bookstore;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+@MapperScan("com.group12.bookstore.mapper.*")
 @SpringBootApplication
 public class BookStoreApplication {
 
